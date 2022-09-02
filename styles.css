@@ -1,0 +1,127 @@
+body{
+  background: hsl(225, 100%, 94%);
+}
+
+.mobile{
+  width: 100%;
+}
+
+.desktop{
+  display: none;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Red Hat Display', sans-serif;
+  max-width: 400px;
+  margin: auto;
+  margin-top: -195px;
+  margin-bottom: 50px;
+}
+
+.hero{
+  width: 100%;
+}
+
+.details{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: space-ar;
+}
+
+.music{
+  display: flex;
+  gap: 50px;
+}
+
+.logo{
+  height: fit-content;
+  margin: auto;
+  margin-left: 15px;
+}
+
+.listen{
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p{
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.change{
+  margin: auto;
+  margin-right: 15px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.selection{
+  display: flex;
+  gap: 110px;
+  background: hsl(225, 100%, 98%);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.order{
+  font-weight: 900;
+}
+
+p.annual{
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.cancel{
+  font-weight: 700;
+}
+
+button{
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background: hsl(245, 75%, 52%);
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:400px) {
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+
+  .card{
+    margin-top: -50px;
+  }
+}
